@@ -1,9 +1,9 @@
 output "applicant_name" {
   description = "Name of the applicant"
-  value       = "Savas Derinsu"
+  value       = var.applicant_name
 }
 
 output "position_title" {
   description = "Position being applied for"
-  value       = "Senior DevOps Engineer"
+  value       = var.position_title
 }
